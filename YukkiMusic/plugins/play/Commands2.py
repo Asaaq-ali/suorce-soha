@@ -200,7 +200,7 @@ async def sound(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaPhoto(
-           "https://telegra.ph/file/4f5ddfee947f57d1d85a0.jpg",
+           "https://telegra.ph/file/4eee6d4a7a1de179ff26d.jpg",
            "- هلا والله\n◌**عشان تشغل بالقنوات لازم تسوي بعض الخطوات وهي◌** :\n\n1 -› تدخل البوت قناتك وترفعه مشرف\n2 -› ترجع للقروب وتكتب { **ربط + يوزر القناة** }\n3 -› **اضغط على زر اوامر التشغيل عشان تعرف كيف تشغل**..\n\n✶ **للاستفسار** - @A_S_A_S_K"
       ),
        reply_markup=InlineKeyboardMarkup(
@@ -223,7 +223,7 @@ async def sound(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaPhoto(
-           "https://telegra.ph/file/5306c1c651eb877f67c48.jpg",
+           "https://telegra.ph/file/86eb759b32ead328e198a.jpg",
            "✧ **اهلين فيك في قسم الاوامر الخدمية**\n-** عندك اوامر كثيرة للتسلية ومنها ↓**\n\n-› **غنيلي\n-› افتارات بنات\n-› افتارات عيال\n-› افتارات مكس\n -› هيدرات او هيدر\n-› اقتباس او اقتباسات\n-› كت**\n\n✶ **ايضا تقدر تتابع قناة سهى فيها تشكلية كبيرة من كل الي ذكرتهم فوق**\n-› @Mlze1bot"
       ),
        reply_markup=InlineKeyboardMarkup(
