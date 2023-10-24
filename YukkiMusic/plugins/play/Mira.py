@@ -17,7 +17,7 @@ from YukkiMusic import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, ap
 @app.on_message(filters.regex("^$"))
 async def khalid(client: Client, message: Message):
     user = message.from_user.mention
-    await message.reply_text(f"""**اهلين {user} !\n- اضغط الزر عشان تشوف اوامر حياه**""",
+    await message.reply_text(f"""**اهلين {user} !\n- اضغط الزر عشان تشوف اوامر سهى**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -30,9 +30,9 @@ async def khalid(client: Client, message: Message):
 
 
 
-@app.on_message(filters.regex("^حياه الاحصائيات$") & filters.user(2089102006))
+@app.on_message(filters.regex("^سهى الاحصائيات$") & filters.user(2089102006))
 async def ahtek(client: Client, message: Message):
-    m_reply = await message.reply_text(f"**✧ اهلين مطوري ارحب\n- هذي احصائيات حياه ياعيني :\n\n-› عدد المشتركين : 12478\n-› عدد المجموعات : 11346\n\n• تم زيادة 1204 مشترك ونقص 2103 مجموعة  في اخر 24 ساعة\n\n- عدد الطرد من بوتات اخرى : 843\n- طرد يدوي : 1302\n\n╼╾**")
+    m_reply = await message.reply_text(f"**✧ اهلين مطوري ارحب\n- هذي احصائيات سهى يا روحي :\n\n-› عدد المشتركين : 12478\n-› عدد المجموعات : 11346\n\n• تم زيادة 1204 مشترك ونقص 2103 مجموعة  في اخر 24 ساعة\n\n- عدد الطرد من بوتات اخرى : 843\n- طرد يدوي : 1302\n\n╼╾**")
     await m_reply_text("")
 
 
@@ -40,13 +40,13 @@ async def ahtek(client: Client, message: Message):
 def vgdg(client,message):
         message.reply_text(
             f"""✧ Welcome Baby,
-ᴅᴇᴠᴇʟᴏᴘᴇʀ -› [『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』♪](t.me/lV_P_Nl)
-ᴄʜᴀɴɴᴇʟ -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝒉𝒂𝒚𝒂](t.me/lN_B_Fl)""", 
+ᴅᴇᴠᴇʟᴏᴘᴇʀ -› [『𝐖𝐇𝐈𝐒𝐊𝐄𝐘 𝐓𝐍𝐓 ⏎ 』♪](t.me/A_S_A_S_K)
+ᴄʜᴀɴɴᴇʟ -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂](t.me/Mlze1bot)""", 
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            "تحديثات حياه 🍻", url=f"t.me/lN_B_Fl")
+                            "تحديثات سهى 🍻", url=f"t.me/Mlze1bot")
                     ]
                 ]
             ),
@@ -82,7 +82,7 @@ async def delet(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.command("حياه نادي المطور", [".", ""]) & filters.group)
+@app.on_message(filters.command("سهى نادي المطور", [".", ""]) & filters.group)
 async def kstr(client: Client, message: Message):
        chat = message.chat.id
        gti = message.chat.title
@@ -99,7 +99,7 @@ async def kstr(client: Client, message: Message):
        reply_markup=reply_markup,
        )
        await message.reply_text(
-        f"""- **ابشر ياعيوني ارسلت للمطور بيخش القروب ويشوف مشكلتك بأقرب وقت\n\n- تابع قناة البوت عشات تشوف التحديثات** -› [• Source HAYA •](t.me/lN_B_Fl)""", disable_web_page_preview=True     
+        f"""- **ابشر ياعيوني ارسلت للمطور بيخش القروب ويشوف مشكلتك بأقرب وقت\n\n- تابع قناة البوت عشات تشوف التحديثات** -› [• 𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)""", disable_web_page_preview=True     
     )
 
 
@@ -142,7 +142,7 @@ REPLY_MESSAGE_BUTTONS = [
 
   
 
-@app.on_message(filters.regex("^حياه$"))
+@app.on_message(filters.regex("^سهى$"))
 async def cpanel(_, message: Message):             
         text = REPLY_MESSAGE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONS, resize_keyboard=True, selective=True)
@@ -153,24 +153,24 @@ async def cpanel(_, message: Message):
 
 @app.on_message(filters.regex("اخفاء الازرار") & filters.group)
 async def down(client, message):
-          m = await message.reply("**- ابشر تم اخفاء الازرار بنجاح\n- لو تبي تطلعها مرة ثانية اكتب حياه**", reply_markup= ReplyKeyboardRemove(selective=True))
+          m = await message.reply("**- ابشر تم اخفاء الازرار بنجاح\n- لو تبي تطلعها مرة ثانية اكتب سهى**", reply_markup= ReplyKeyboardRemove(selective=True))
 
 
-@app.on_message(filters.group & command("كيفية استخدام حياه"))
+@app.on_message(filters.group & command("كيفية استخدام سهى"))
 async def addbot(client: Client, message: Message):
-    await message.reply_text(f"""- **هلا والله ياعيني عشان تفعل بوت حياه اتبع الخطوات الي بالاسفل**
+    await message.reply_text(f"""- **هلا والله ياعيني عشان تفعل بوت سهى اتبع الخطوات الي بالاسفل**
 1 • ارفعه مشرف بكل الصلاحيات 
-2 • لو تبي تشوف الاوامر اكتب [ م الاوامر ] ولو تبي تشغل على طول اكتب حياه شغلي + اسم المقطع الصوتي
-• مثال : حياه شغلي واتنسيت
-- لو واجهت مشكله كلم مطور البوت ~ @lV_P_Nl""",
+2 • لو تبي تشوف الاوامر اكتب [ م الاوامر ] ولو تبي تشغل على طول اكتب سهى شغلي + اسم المقطع الصوتي
+• مثال : سهى شغلي قالوا عليكي
+- لو واجهت مشكله كلم مطور البوت ~ @A_S_A_S_K""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                       "Khaled", user_id=2089102006),
+                       "𝗔𝗦𝗔𝗔𝗤", user_id=6218149232),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -181,20 +181,20 @@ async def addbot(client: Client, message: Message):
 
 @app.on_message(filters.group & command("السورس"))
 async def addbot(client: Client, message: Message):
-    await message.reply_text(f"""**- اهلين فيك بسورس حياه ياحلو
+    await message.reply_text(f"""**- اهلين فيك بسورس سهى ياحلو
 • لو تبي تنصب مثل هالبوت تواصل مع مطور السورس
 • عندك استفسار او اقتراح بخصوص البوت تواصل مع مطور البوت**
-مطور السورس -› [Khaled](t.me/lV_P_Nl)
-قناة السورس -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝒉𝒂𝒚𝒂](t.me/lN_B_Fl)
+مطور السورس -› [𝗔𝗦𝗔𝗔𝗤](t.me/A_S_A_S_K)
+قناة السورس -› [𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂](t.me/Mlze1bot)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "تحديثات حياه 🍻", url=f"https://t.me/lN_B_Fl"),
+                        "تحديثات سهى 🍻", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -203,14 +203,14 @@ async def addbot(client: Client, message: Message):
 
 
 
-REPLY_MESSAGEE = "- هلا فيك في قسم اوامر حياه"
+REPLY_MESSAGEE = "- هلا فيك في قسم اوامر سهى"
 
 REPLY_MESSAGE_BUTTONSS = [
          [
-             ("شرح التشغيل بمنصات الاغاني")
+             ("منصات الاغاني")
           ],
           [
-             ("اوامر المجموعة"),
+             ("اوامر الجروبات"),
              ("اوامر القنوات")
           ],
           [
@@ -229,7 +229,7 @@ REPLY_MESSAGE_BUTTONSS = [
 ]
 
   
-@app.on_message(filters.group & command("اوامر حياه"))
+@app.on_message(filters.group & command("اوامر سهى"))
 async def com(_, message: Message):             
         text = REPLY_MESSAGEE
         reply_markup = ReplyKeyboardMarkup(REPLY_MESSAGE_BUTTONSS, resize_keyboard=True, selective=True)
@@ -250,7 +250,7 @@ async def bask(_, message: Message):
         )
 
 
-@app.on_message(filters.group & command("شرح التشغيل بمنصات الاغاني"))
+@app.on_message(filters.group & command("منصات الاغاني"))
 async def mnsat(client: Client, message: Message):
     await message.reply_text(f"""** اهلين فيك في قسم تشغيل المنصات
 - المنصات المدعومة هي ↓
@@ -259,15 +259,15 @@ async def mnsat(client: Client, message: Message):
 • SoundCloud
 • AppleMusic
 • Spotify
-- لو واجهت مشكلة تواصل مع مطور السورس @lV_P_Nl**
-- [𝑺𝒐𝒖𝒓𝒄𝒆 𝒉𝒂𝒚𝒂](t.me/lN_B_Fl)
+- لو واجهت مشكلة تواصل مع مطور السورس @A_S_A_S_K**
+- [𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂](t.me/Mlze1bot)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                       
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
 
                 ],
             ]
@@ -275,17 +275,17 @@ async def mnsat(client: Client, message: Message):
         disable_web_page_preview=True
     )
 
-@app.on_message(filters.group & command("اوامر المجموعة"))
+@app.on_message(filters.group & command("اوامر الجروبات"))
 async def laksk(client: Client, message: Message):
-    await message.reply_text(f"""\n\n\n╭── • [𝐇𝐀𝐘𝐀 𝗠𝘂𝘀𝗶𝗰](t.me/lN_B_Fl) • ──╮\n\n ✧ **اوامر التشغيل بالمجموعة**\n\n• **حياه شغلي + اسم الاغنية او بالرد** \n-› لتشغيل الاغاني فالمجموعة\n\n• **حياه طفيها** او ** ايقاف**\n-› لايقاف تشغيل جميع الصوتيات بالمكالمة\n\n• **حياه الي بعده** او **تخطي**\n-› لتشغيل التالي بالانتظار\n\n • **حياه اص** او **اسكتي**\n-› لكتم صوت الحساب المساعد بالمكالمة\n\n• **حياه تكلمي**\n-› لالغاء الكتم واكمال التشغيل\n\n• **حياه ايقاف مؤقت** او **ايقاف مؤقت**\n -› لايقاف التشغيل بشكل مؤقت\n\n• **حياه كملي** او **استئناف**\n -› لاكمال التشغيل بعد الايقاف المؤقت\n\n╰── • [𝐇𝐀𝐘𝐀 𝗠𝘂𝘀𝗶𝗰](t.me/lN_B_Fl) • ──╯""",
+    await message.reply_text(f"""\n\n\n╭── • [𝘀𝗼𝗵𝗮 𝗠𝘂𝘀𝗶𝗰](t.me/Mlze1bot) • ──╮\n\n ✧ **اوامر التشغيل بالجروبات**\n\n• **سهى شغلي + اسم الاغنية او بالرد** \n-› لتشغيل الاغاني فالمجموعة\n\n• **سهى طفيها** او ** ايقاف**\n-› لايقاف تشغيل جميع الصوتيات بالمكالمة\n\n• **سهى الي بعده** او **تخطي**\n-› لتشغيل التالي بالانتظار\n\n • **سهى اص** او **اسكتي**\n-› لكتم صوت الحساب المساعد بالمكالمة\n\n• **سهى تكلمي**\n-› لالغاء الكتم واكمال التشغيل\n\n• **سهى ايقاف مؤقت** او **ايقاف مؤقت**\n -› لايقاف التشغيل بشكل مؤقت\n\n• **سهى كملي** او **استئناف**\n -› لاكمال التشغيل بعد الايقاف المؤقت\n\n╰── • [𝘀𝗼𝗵𝗮 𝗠𝘂𝘀𝗶𝗰](t.me/Mlze1bot) • ──╯""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -295,15 +295,15 @@ async def laksk(client: Client, message: Message):
 
 @app.on_message(filters.group & command("اوامر القنوات"))
 async def channvom(client: Client, message: Message):
-    await message.reply_text(f"""\n\n╭── • [𝐇𝐀𝐘𝐀 𝗠𝘂𝘀𝗶𝗰](t.me/lN_B_Fl) • ──╮\n\n ✧ **اوامر التشغيل بالقنوات**\n\n• **ق تشغيل + اسم الاغنية او بالرد** \n-› لتشغيل الاغاني بالقناة\n\n• **ق ايقاف**\n-› لايقاف تشغيل جميع الصوتيات بالمكالمة\n\n• **ق تخطي**\n-› لتشغيل التالي بالانتظار\n\n • **ق اص**\n-› لكتم صوت الحساب المساعد بالمكالمة\n\n• **ق كملي**\n-› لالغاء الكتم واكمال التشغيل\n\n• **ق ايقاف مؤقت**\n -› لايقاف التشغيل بشكل مؤقت\n\n• **ق استئناف**\n -› لاكمال التشغيل بعد الايقاف المؤقت\n\n╰── • [𝐇𝐀𝐘𝐀 𝗠𝘂𝘀𝗶𝗰](t.me/lN_B_Fl) • ──╯""",
+    await message.reply_text(f"""\n\n╭── • [𝘀𝗼𝗵𝗮 𝗠𝘂𝘀𝗶𝗰](t.me/Mlze1bot) • ──╮\n\n ✧ **اوامر التشغيل بالقنوات**\n\n• **ق تشغيل + اسم الاغنية او بالرد** \n-› لتشغيل الاغاني بالقناة\n\n• **ق ايقاف**\n-› لايقاف تشغيل جميع الصوتيات بالمكالمة\n\n• **ق تخطي**\n-› لتشغيل التالي بالانتظار\n\n • **ق اص**\n-› لكتم صوت الحساب المساعد بالمكالمة\n\n• **ق كملي**\n-› لالغاء الكتم واكمال التشغيل\n\n• **ق ايقاف مؤقت**\n -› لايقاف التشغيل بشكل مؤقت\n\n• **ق استئناف**\n -› لاكمال التشغيل بعد الايقاف المؤقت\n\n╰── • [𝘀𝗼𝗵𝗮 𝗠𝘂𝘀𝗶𝗰](t.me/Mlze1bot) • ──╯""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -323,10 +323,10 @@ async def dowmmr(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -340,10 +340,10 @@ async def dowhmr(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
@@ -357,10 +357,10 @@ async def dowhmo(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "", url=f"https://t.me/UUUOLC"),
+                        "", url=f"https://t.me/Mlze1bot"),
                 ],[
                     InlineKeyboardButton(
-                        "• ضيفني لقروبك 🎻", url=f"https://t.me/NKQbot?startgroup=true"),
+                        "• ضيفني لقروبك 🎻", url=f"https://t.me/smauabot?startgroup=true"),
                 ],
             ]
         ),
