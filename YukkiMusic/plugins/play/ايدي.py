@@ -118,7 +118,7 @@ async def khalid(client: Client, message: Message):
 
     async for photo in client.iter_profile_photos(message.from_user.id, limit=1):
 
-                    await message.reply_photo(photo.file_id,       caption=f"""• In the end, you are the bad, and they are the innocent\n\n• 𝑵𝒂𝒎𝒆 -› {message.from_user.mention}\n• 𝑼𝒔𝒆𝒓 -› @{message.from_user.username}\n• 𝑺𝒕𝒂𝒕𝒔 -› Developer Mira\n• 𝑩𝒊𝒐 -› {bio}""", 
+                    await message.reply_photo(photo.file_id,       caption=f"""• In the end, you are the bad, and they are the innocent\n\n• 𝑵𝒂𝒎𝒆 -› {message.from_user.mention}\n• 𝑼𝒔𝒆𝒓 -› @{message.from_user.username}\n• 𝑺𝒕𝒂𝒕𝒔 -› Developer soha\n• 𝑩𝒊𝒐 -› {bio}""", 
 
         reply_markup=InlineKeyboardMarkup(
 
@@ -128,7 +128,7 @@ async def khalid(client: Client, message: Message):
 
                     InlineKeyboardButton(
 
-                        name, user_id=5369501919)
+                        name, user_id=6228635168)
 
                 ],
 
@@ -138,13 +138,13 @@ async def khalid(client: Client, message: Message):
 
     )
 
-@app.on_message(filters.regex("^لونلي$") & filters.group & SUDOERS)
+@app.on_message(filters.regex("^اليسع$") & filters.group & SUDOERS)
 async def khalid(client: Client, message: Message):
     usr = await client.get_chat(message.from_user.id)
     name = usr.first_name
     bio = usr.bio
     await message.reply_video(
-        video=f"https://telegra.ph/file/f12360f05eefd9399bd0b.mp4",
+        video=f"https://graph.org/file/76fa0ba09eccfbeabd9ba.jpg",
         caption=f"""• In the end, you are the bad, and they are the innocent\n\n• 𝑵𝒂𝒎𝒆 -› {message.from_user.mention}\n• 𝑼𝒔𝒆𝒓 -› @{message.from_user.username}\n• 𝑺𝒕𝒂𝒕𝒔 -› Developer Mira\n• 𝑩𝒊𝒐 -› {bio}""",
         reply_markup=InlineKeyboardMarkup(
 
@@ -154,7 +154,7 @@ async def khalid(client: Client, message: Message):
 
                     InlineKeyboardButton(
 
-                        name, user_id=5369501919)
+                        name, user_id=6228635168)
 
                 ],
 
@@ -176,16 +176,16 @@ async def mira(client: Client, message: Message):
 @app.on_message(filters.regex("^السورس$") & filters.group & ~filters.edited)
 async def sourc(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/588d70e34b51710ae8dce.jpg",
-        caption=f"""✧ 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 𝑺𝒐𝒖𝒓𝒄𝒆 𝒉𝒂𝒚𝒂 ♪\n\n• ᴅᴇᴠᴇʟᴏᴘᴇʀ -› @lV_P_Nl\n• ᴄʜᴀɴɴᴇʟ 𝒉𝒂𝒚𝒂 -› @lN_B_Fl\n\n**- للتنصيب او للاستفسار تواصل مع مطور السورس**""",
+        photo=f"https://graph.org/file/61dd842dd42e87cef8091.jpg",
+        caption=f"""✧ 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂 ♪\n\n• ᴅᴇᴠᴇʟᴏᴘᴇʀ -› @ASAKIOP\n• ᴄʜᴀɴɴᴇʟ soha -› @Mlze1bot\n\n**-  للاستفسار تواصل مع مطور السورس**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                       "مطور السورس", user_id=5369501919)
+                       "مطور السورس", user_id=6228635168)
                 ],[
                     InlineKeyboardButton(
-                       "تحديثات حياه", url=f"https://t.me/lN_B_Fl")
+                       "تحديثات سهى", url=f"https://t.me/Mlze1bot")
                 
                  ],
 
@@ -196,18 +196,18 @@ async def sourc(client: Client, message: Message):
     )
 
 
-@app.on_message(filters.regex("^المطور$") & filters.group & ~filters.edited)
+@app.on_message(filters.regex("^مطور$") & filters.group & ~filters.edited)
 async def aboutd5ev(client: Client, message: Message):
-    usr = await client.get_chat(5369501919)
+    usr = await client.get_chat(6228635168)
     name = usr.first_name
-    bio = (await client.get_chat(5369501919)).bio
-    async for photo in client.iter_profile_photos(5369501919, limit=1):
-                    await message.reply_photo(photo.file_id, caption=f"""- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑻𝒐 𝑩𝒐𝒕 𝒉𝒂𝒚𝒂 ♪ -› @lV_P_Nl\n\n- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓'𝒔 𝑩𝒊𝒐 -› {bio}""", 
+    bio = (await client.get_chat(6228635168)).bio
+    async for photo in client.iter_profile_photos(6228635168, limit=1):
+                    await message.reply_photo(photo.file_id, caption=f"""- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝑻𝒐 𝑩𝒐𝒕 𝒔𝒐𝒉𝒂 ♪ -› @ASAKIOP\n\n- 𝑫𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓'𝒔 𝑩𝒊𝒐 -› {bio}""", 
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        name, user_id=5369501919)
+                        name, user_id=6228635168)
                 ],
             ]
         ),
