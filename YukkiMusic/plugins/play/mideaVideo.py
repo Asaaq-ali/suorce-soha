@@ -66,16 +66,16 @@ async def fft(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/e9c8bc47d997d3d42fd3e.mp4",None,
+           "https://telegra.ph/file/94c43633525702295679d.mp4",None,
            ""
        ),
        reply_markup=InlineKeyboardMarkup(
           [
                [
                     InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", url=f"t.me/NvvvC"),
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", url=f"t.me/Mlze1bot"),
                     InlineKeyboardButton(
-                        "◌ᴅᴇᴠᴇʟᴏᴘᴇʀ◌", url=f"t.me/C_C_1")
+                        "◌ᴅᴇᴠᴇʟᴏᴘᴇʀ◌", url=f"t.me/A_S_A_S_K")
                 ],[
                     InlineKeyboardButton(
                         "", callback_data="close"),
@@ -96,18 +96,18 @@ async def eslam(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/3f991cf109e90c025f35a.mp4",None,
-           "**✧ شرح تشغيل الصوتيات او الفويسات\n- ترد على الفويس او الصوت المطلوب بأحد هاذي الاوامر :\n• ميرا شغلي\n• /play\n• وبرضو هالاوامر تشتغل على الفيديو ترد على الفيديو ويشتغل بالمكالمة**\n\n**وللتوضيح اكثر تابعو الفيديو الي فوق (: .**"
+           "https://telegra.ph/file/d723f4c80da157fca1678.jpg",None,
+           "**✧ شرح تشغيل الصوتيات او الفويسات\n- ترد على الفويس او الصوت المطلوب بأحد هاذي الاوامر :\n• سهى شغلي\n• /play\n• وبرضو هالاوامر تشتغل على الفيديو ترد على الفيديو ويشتغل بالمكالمة**\n\n**وللتوضيح اكثر تابعو الفيديو الي فوق (: .**"
        ),
        reply_markup=InlineKeyboardMarkup(
           [
                [
-                    InlineKeyboardButton("", url=f"t.me/YYYBD"),
+                    InlineKeyboardButton("", url=f"t.me/Mlze1bot"),
                     InlineKeyboardButton("رجوع", callback_data="ko")
                 ],[
-                    InlineKeyboardButton("", url=f"t.me/yyybr"),
+                    InlineKeyboardButton("", url=f"t.me/Mlze1bot"),
                 ],[
-                    InlineKeyboardButton("◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data="fft"),
+                    InlineKeyboardButton("◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data="fft"),
                     InlineKeyboardButton("", callback_data="ko"),
                ],
           ]
@@ -123,7 +123,7 @@ async def back1(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/06f578ffcacbfea71ad30.mp4",None,
+           "https://graph.org/file/9baeb108deb5ab47c7d56.jpg",None,
            "**اهلين فيك في قسم تشغيل المنصات**\n- **المنصات المدعومة هي ↓**\n\n**• Telegram\n• Youtube\n• SoundCloud\n• AppleMusic\n• Spotify\n\n- بتلقى شرح لكل هالمنصات بالزرار تحت ..**"
        ),
        reply_markup=InlineKeyboardMarkup(
@@ -150,7 +150,7 @@ async def back1(_, query: CallbackQuery):
                 ],[
 
                      InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data=f"fft"),
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data=f"fft"),
 
 
                 ],
@@ -166,8 +166,8 @@ async def don(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/417746bcdb462a48ea974.mp4",None,
-           "**اهلين فيك في قسم التحميل ♪\nللبحث عن اغنية او فيديو استخدم الامر التالي ↓\n\n[ بحث + اسم المطلوب ..]\n\nمثال -› بحث بحبك وحشتني**"
+           "https://telegra.ph/file/86eb759b32ead328e198a.jpg",None,
+           "**اهلين فيك في قسم التحميل ♪\nللبحث عن اغنية او فيديو استخدم الامر التالي ↓\n\n[ بحث + اسم المطلوب ..]\n\nمثال -› بحث قالوا عليكي **"
        ),
        reply_markup=InlineKeyboardMarkup(
             [
@@ -198,7 +198,7 @@ async def don(_, query: CallbackQuery):
                 ],[
 
                      InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data=f"fft")
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data=f"fft")
 
                 ],
             ]
@@ -213,7 +213,7 @@ async def dont(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/417746bcdb462a48ea974.mp4",None,
+           "https://graph.org/file/9baeb108deb5ab47c7d56.jpg",None,
            "✧ **اهلين فيك في قسم حفظ التشغيل**\n\n- **حفظ التشغيل هو حفظ الاغاني الي اشتغلت بالمجموعة وحفظها يعني انك تقدر تشغلها بدون ما ترجع تبحث عنها مرة ثانية وتبقى محفوظة لك فقط**\n\n- عشان تحفظ الاغنية او المُشغل الحالي بالمكالمة لازم تضغط على زر -› ( **حفظ التشغيل** )\n\n- عشان تشوف الاغاني او الصوتيات الي حفظتها اكتب امر -› ( **قائمة تشغيلي** )\n\n- وطريقة تشغيل قائمتك تكتب فقط امر -› ( **تشغيل قائمتي** )\n\n- طريقة حذف اغنية او مقطع من محفوظاتك تكتب امر -› ( **حذف تشغيلي** ) وتكمل الخطوات بخاص البوت ..\n\n✶ **ملاحظة : اذا حفظت اغنية بتكون محفوظة عندك فقط يعني كل شخص عنده قائمة تشغيل خاصة فيه ومحد يقدر يحفظ اغنية عندك والعكس ايضا\n✶ لو ما فهمت تابع الفيديو الي فوق عشان تفهم اكثر ❤️**"
        ),
        reply_markup=InlineKeyboardMarkup(
@@ -256,8 +256,8 @@ async def donnr(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/7300df6491dfcbe571680.mp4",None,
-           "**هلا فيك في قسم تشغيل روابط اليوتيوب\n\n• عندك طريقتين للتشغيل وهي :\n\n1 - وضع الرابط مع الامر \n2 - بالرد على الرابط بأمر التشغيل وهو [ ميرا شغلي ]\n\n◌ مثال : ميرا شغلي https://youtu.be/UuEPuVjsoG4\n- تابع الفيديو فوق للتوضيح اكثر ،**"
+           "https://telegra.ph/file/4eee6d4a7a1de179ff26d.jpg",None,
+           "**هلا فيك في قسم تشغيل روابط اليوتيوب\n\n• عندك طريقتين للتشغيل وهي :\n\n1 - وضع الرابط مع الامر \n2 - بالرد على الرابط بأمر التشغيل وهو [ سهى شغلي ]\n\n◌ مثال : سهى شغلي https://youtu.be/UuEPuVjsoG4\n- تابع الفيديو فوق للتوضيح اكثر ،**"
        ),
        reply_markup=InlineKeyboardMarkup(
             [
@@ -288,7 +288,7 @@ async def donnr(_, query: CallbackQuery):
                 ],[
 
                      InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data=f"fft")
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data=f"fft")
 
                 ],
             ]
@@ -303,8 +303,8 @@ async def apple(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/76b82a7b8df689a169182.mp4",None,
-           "◌ هلا فيك في قسم تشغيل اغاني Apple Music ♪\n\n• تقدر تشغيل الاغاني عن طريق الرد على الرابط او وضعه مع الامر .\n\n• مثال : [ `ميرا شغلي https://music.apple.com/sa/album/ipad/1616715862?i=1616715870&l=ar` ]\n\n**تابع الفيديو للتوضيح اكثير .**"
+           "https://telegra.ph/file/86eb759b32ead328e198a.jpg",None,
+           "◌ هلا فيك في قسم تشغيل اغاني Apple Music ♪\n\n• تقدر تشغيل الاغاني عن طريق الرد على الرابط او وضعه مع الامر .\n\n• مثال : [ `سهى شغلي https://music.apple.com/sa/album/ipad/1616715862?i=1616715870&l=ar` ]\n\n**تابع الفيديو للتوضيح اكثير .**"
        ),
        reply_markup=InlineKeyboardMarkup(
             [
@@ -335,7 +335,7 @@ async def apple(_, query: CallbackQuery):
                 ],[
 
                      InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data=f"fft")
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data=f"fft")
 
                 ],
             ]
@@ -350,8 +350,8 @@ async def spo(_, query: CallbackQuery):
 
     await query.edit_message_media(
        InputMediaVideo(
-           "https://telegra.ph/file/bc01ebc69dc2ff1f380d9.mp4",None,
-           "◌ هلا فيك في قسم تشغيل اغاني Spotify ♪\n\n• تقدر تشغيل الاغاني عن طريق الرد على الرابط او وضعه مع الامر .\n\n• مثال : [ `ميرا شغلي https://open.spotify.com/track/2GQB3Xe1J9D2sK90AtHfhI?si=aIuly9l-T-Gy5GvfZxpUiw&context=spotify%3Aplaylist%3A37i9dQZF1DXcJUwMZo8Ss1i=1616715870&l=ar` ]\n\n**تابع الفيديو للتوضيح اكثير .**"
+           "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg",None,
+           "◌ هلا فيك في قسم تشغيل اغاني Spotify ♪\n\n• تقدر تشغيل الاغاني عن طريق الرد على الرابط او وضعه مع الامر .\n\n• مثال : [ `سهى شغلي https://open.spotify.com/track/2GQB3Xe1J9D2sK90AtHfhI?si=aIuly9l-T-Gy5GvfZxpUiw&context=spotify%3Aplaylist%3A37i9dQZF1DXcJUwMZo8Ss1i=1616715870&l=ar` ]\n\n**تابع الفيديو للتوضيح اكثير .**"
        ),
        reply_markup=InlineKeyboardMarkup(
             [
@@ -382,7 +382,7 @@ async def spo(_, query: CallbackQuery):
                 ],[
 
                      InlineKeyboardButton(
-                        "◌sᴏᴜʀᴄᴇ ᴍɪʀᴀ◌", callback_data=f"fft")
+                        "◌𝑺𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒉𝒂◌", callback_data=f"fft")
 
                 ],
             ]
