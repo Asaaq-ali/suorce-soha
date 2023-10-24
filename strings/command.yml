@@ -5,7 +5,7 @@
 
 # Bot Commands
 PING_COMMAND : ["ping", ""]
-START_COMMAND : ["start"]
+START_COMMAND : ["star"]
 HELP_COMMAND : ["", "الاوامر"]
 SETTINGS_COMMAND : ["settings", "setting", "اعدادت", "الاعدادت", "التحكم"]
 RELOAD_COMMAND : ["adminre", "reload", "ريلود"]
@@ -13,10 +13,10 @@ GSTATS_COMMAND : ["gstats"]
 STATS_COMMAND : ["", ""]
 LANGUAGE_COMMAND : ["", "", "", "لغه", "اللغه"]
 
-AM_COMMAND : ["ميرا الاوامر", "م الاوامر"]
+AM_COMMAND : ["سهى الاوامر", "م الاوامر"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "ميرا شغلي", "ق شغلي", "فيديو", "ق تشغيل", "/play", "/vplay", "cplay", "cvplay", "ميرا شغلي", "/تشغيل", "/ق تشغيل", "/ق شغلي", "/فيديو", "تشغيل قائمتي"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce", "سهى شغلي", "ق شغلي", "فيديو", "ق تشغيل", "/play", "/vplay", "cplay", "cvplay", "سهى شغلي", "/تشغيل", "/ق تشغيل", "/ق شغلي", "/فيديو", "تشغيل قائمتي"]
 PLAYMODE_COMMAND : ["", "", ""]
 CHANNELPLAY_COMMAND : ["ربط"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce", "لايف", "ق لايف"]
@@ -37,10 +37,10 @@ AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
 PAUSE_COMMAND : ["pause", "cpause", "ايقاف مؤقت", "ق ايقاف مؤقت", "/pause", "/cpause", "ميرا ايقاف مؤقت", ""]
-RESUME_COMMAND : ["resume", "cresume", "ميرا كملي", "", "/resume", "ق استئناف", "/cresume", "/ق استئناف", "كمل"]
-MUTE_COMMAND : ["ميرا اسكتي", "cmute", "ميرا اص", "ق اص", "/mute", "/cmute", "/", "/ق اسكت"]
-UNMUTE_COMMAND : ["unmute", "cunmute", "ميرا تكلمي", "ق كملي", "/unmute", "/cunmute", "/ميرا الغاء الكتم", "/ق اتكلم"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend", "ميرا طفيها", "انهاء", "ق ايقاف", "ق انهاء", "ايقاف", "/انهاء", "/end", "/stop", "/ق ايقاف", "/ق انهاء", "/cend", "/cstop"]
+RESUME_COMMAND : ["resume", "cresume", "سهى كملي", "", "/resume", "ق استئناف", "/cresume", "/ق استئناف", "كمل"]
+MUTE_COMMAND : ["ميرا اسكتي", "cmute", "سهى اص", "ق اص", "/mute", "/cmute", "/", "/ق اسكت"]
+UNMUTE_COMMAND : ["unmute", "cunmute", "سهى تكلمي", "ق كملي", "/unmute", "/cunmute", "/ميرا الغاء الكتم", "/ق اتكلم"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "سهى طفيها", "انهاء", "ق ايقاف", "ق انهاء", "ايقاف", "/انهاء", "/end", "/stop", "/ق ايقاف", "/ق انهاء", "/cend", "/cstop"]
 SKIP_COMMAND : ["skip", "cskip", "تخطي", "ق تخطي"]
 SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
 LOOP_COMMAND : ["تكرار", "ق تكرار"]
@@ -52,7 +52,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo", "رفع مطور"]
 DELSUDO_COMMAND : ["delsudo", "تنزيل مطور"]
-SUDOUSERS_COMMAND : ["sudolist", "مطورين ميرا"]
+SUDOUSERS_COMMAND : ["sudolist", "مطورين سهى"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broad"]
@@ -92,7 +92,7 @@ AUTHORIZED_COMMAND : ["authorized"]
 #Block Users Command
 BLOCK_COMMAND : ["block", "!حظر"]
 UNBLOCK_COMMAND : ["unblock", "!الغاء الحظر"]
-BLOCKED_COMMAND : ["blockedusers", "!محظورين ميرا"]
+BLOCKED_COMMAND : ["blockedusers", "!محظورين سهى"]
 
 #sPEEDTEST
 SPEEDTEST_COMMAND : ["!سرعة السيرفر"]
