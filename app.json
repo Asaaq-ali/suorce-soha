@@ -15,12 +15,12 @@
     "env": {
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "19701360",
+        "value": "23308690",
         "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
-        "value": "17e5d9068dd7a5d8ff7b6f3e6944bcdf",
+        "value": "0a64b7fb353afea42c8847bd5ae5c744",
         "required": true
       },
       "AUTO_LEAVING_ASSISTANT": {
@@ -30,7 +30,7 @@
       },
       "BOT_TOKEN": {
         "description": "A Bot's token from Botfather",
-        "value": "1935846654:AAG77obTQufGnJDSjWdgu-I0qDId3D1zjKI",
+        "value": "",
         "required": true
       },
       "MONGO_DB_URI": {
@@ -40,17 +40,17 @@
       },
       "MUSIC_BOT_NAME": {
         "description": "A name for your Music Bot. Please don't use ascii characters",
-        "value": "Mira",
+        "value": "dina",
         "required": true
       },
       "OWNER_ID": {
         "description": "The user id(s) of user(s) whom you would like to add as a OWNER. Multiple values shall be seperated with a space.",
-        "value": "2089102006",
+        "value": "6218149232",
         "required": true
       },
       "STRING_SESSION": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
-        "value": "AQC07bLKmoC2424e0MtS9LWcFTpA1KMGVgi35qIG7GvKfek_ON7-4Xux9rA82pyYSs2uQ1DiEWZw9d6h0SYkATJ_S7N-x0SnPzlXS6piaV6PcqVAZ76acH_lbuOUvBqQkKpNo-rsEJcbaAsJsv8KizSKzH4USbPN-vNfSgdVgC8G5pbwqzfny5LgbLOIj6tkB2v87c-LkViCkbOsCcZY2RwyOU0Dgb5GXESxXZ11W-8AMGLiS3aRqAWjXGBOCIVApNGl4lqzMvKpn95SE0HGVt2CH4AhA5Xku8E-K1xfhBlVgToWzJ8FX1muEDG_pVA4w9HDSVkiHPNmsyNwbGA4FUMCY7QytgA",
+        "value": "",
         "required": true
       },
       "HEROKU_API_KEY": {
@@ -65,12 +65,12 @@
       },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
-        "value": "-1001615399169",
+        "value": "-1001936852140",
         "required": true
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/BALVX/M",
+        "value": "https://github.com/Asaaq-ali/suorce-soha",
         "required": true
       },
       "GIT_TOKEN": {
@@ -98,7 +98,7 @@
       "formation": {
           "worker": {
               "quantity": 1,
-              "size": "free"
+              "size": "eco"
           }
       }
   }
