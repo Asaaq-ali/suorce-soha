@@ -61,7 +61,7 @@ async def musicme(client, message):
        if message.chat.id not in disable:
          rl = random.randint(13,136)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_voice(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_voice(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
 
 
@@ -105,7 +105,7 @@ async def ava(client, message):
        if message.chat.id not in disable_A:
          rl = random.randint(188,578)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
 @app.on_message(filters.regex("^افتارات عيال$") & filters.group & ~filters.edited)
 async def ava(client, message):
@@ -114,7 +114,7 @@ async def ava(client, message):
        if message.chat.id not in disable_A:
          rl = random.randint(188,578)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
          
 @app.on_message(filters.regex("^افتار بنات$") & filters.group & ~filters.edited)
@@ -124,7 +124,7 @@ async def ava(client, message):
        if message.chat.id not in disable_A:
          rl = random.randint(583,1121)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
 @app.on_message(filters.regex("^افتارات بنات$") & filters.group & ~filters.edited)
 async def ava(client, message):
@@ -133,7 +133,7 @@ async def ava(client, message):
        if message.chat.id not in disable_A:
          rl = random.randint(583,1121)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
 @app.on_message(filters.regex("^افتارات مكس$") & filters.group & ~filters.edited)
 async def ava(client, message):
@@ -142,7 +142,7 @@ async def ava(client, message):
        if message.chat.id not in disable_A:
          rl = random.randint(583,1121)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
          
 
 
@@ -237,7 +237,7 @@ async def hyder(client, message):
        if message.chat.id not in disable_h:
          rl = random.randint(1331,1795)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
 
 
 @app.on_message(filters.regex("^هيدرات$") & filters.group & ~filters.edited)
@@ -247,4 +247,4 @@ async def hyder1(client, message):
        if message.chat.id not in disable_h:
          rl = random.randint(1331,1795)
          url = f"https://t.me/JuuuT/{rl}"
-         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝑴𝒊𝒓𝒂 •](t.me/JuuuT)")
+         await message.reply_photo(url,caption="-› [• 𝑷𝒓𝒐𝒑𝒆𝒓𝒕𝒚 𝒔𝒐𝒉𝒂 •](t.me/Mlze1bot)")
