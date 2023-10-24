@@ -24,19 +24,19 @@ answer.extend(
             title="استئناف التشغيل",
             description=f"لاستئناف التشغيل بعد الايقاف المؤقت",
             thumb_url="https://telegra.ph/file/02d1b7f967ca11404455a.png",
-            input_message_content=InputTextMessageContent("حياه كملي"),
+            input_message_content=InputTextMessageContent("سهى كملي"),
         ),
         InlineQueryResultArticle(
             title="كتم الحساب المساعد",
             description=f"لكتم الصوت في المكالمة",
             thumb_url="https://telegra.ph/file/66516f2976cb6d87e20f9.png",
-            input_message_content=InputTextMessageContent("حياه اص"),
+            input_message_content=InputTextMessageContent("سهى اص"),
         ),
         InlineQueryResultArticle(
             title="إلغاء الكتم",
             description=f"لالغاء كتم الحساب المساعد",
             thumb_url="https://telegra.ph/file/3078794f9341ffd582e18.png",
-            input_message_content=InputTextMessageContent("حياه تكلمي"),
+            input_message_content=InputTextMessageContent("سهى تكلمي"),
         ),
         InlineQueryResultArticle(
             title="التخطي",
@@ -48,7 +48,7 @@ answer.extend(
             title="ايقاف التشغيل",
             description="لانها التشغيل",
             thumb_url="https://telegra.ph/file/d2eb03211baaba8838cc4.png",
-            input_message_content=InputTextMessageContent("حياه طفيها"),
+            input_message_content=InputTextMessageContent("سهى طفيها"),
         ),
         InlineQueryResultArticle(
             title="تكرار التشغيل",
